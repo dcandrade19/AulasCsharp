@@ -10,7 +10,7 @@ namespace Exercicio03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Teste");
+            Console.WriteLine("Teste2");
             Console.ReadKey();
         }
     }
