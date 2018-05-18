@@ -13,5 +13,14 @@ namespace Exercicio03
         public IList<Carro> Carros { get; set; }
         public Filial Filial { get; set; }
         public Pagamento Pagamento { get; set; }
+
+        public Aluguel(DateTime dataAluguel, DateTime dataDevolucao, IList<Carro> carros, Filial filial, Pagamento pagamento)
+        {
+            DataAluguel = dataAluguel;
+            DataDevolucao = dataDevolucao;
+            Carros = carros;
+            Filial = filial;
+            Pagamento = pagamento;
+        }
     }
 }

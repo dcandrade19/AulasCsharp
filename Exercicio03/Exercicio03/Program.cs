@@ -11,8 +11,9 @@ namespace Exercicio03
         static void Main(string[] args)
         {
             Console.WriteLine("Teste2");
-            Endereco end = new Endereco("ruaend","cidadeend")
 
+            Filial fil = new Filial(4, "testef", null, null, null);
+            Console.WriteLine(fil.Nome);
             Console.ReadKey();
         }
     }

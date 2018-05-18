@@ -14,5 +14,15 @@ namespace Exercicio03
         public string Profissao { get; set; }
         public int Telefone { get; set; }
         public IList<Reserva> Reservas { get; set; }
+
+        public Cliente(string nome, Endereco endereco, int cpf, string profissao, int telefone, IList<Reserva> reservas)
+        {
+            Nome = nome;
+            Endereco = endereco;
+            Cpf = cpf;
+            Profissao = profissao;
+            Telefone = telefone;
+            Reservas = reservas;
+        }
     }
 }

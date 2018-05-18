@@ -11,5 +11,12 @@ namespace Exercicio03
         public string Codigo { get; set; }
         public string Nome { get; set; }
         public Carro Carro { get; set; }
+
+        public Acessorios(string codigo, string nome, Carro carro)
+        {
+            Codigo = codigo;
+            Nome = nome;
+            Carro = carro;
+        }
     }
 }

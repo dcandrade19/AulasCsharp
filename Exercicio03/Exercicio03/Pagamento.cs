@@ -11,5 +11,12 @@ namespace Exercicio03
         public double Valor { get; set; }
         public string Tipo { get; set; }
         public IList<Aluguel> Alugueis { get; set; }
+
+        public Pagamento(double valor, string tipo, IList<Aluguel> alugueis)
+        {
+            Valor = valor;
+            Tipo = tipo;
+            Alugueis = alugueis;
+        }
     }
 }

@@ -11,5 +11,12 @@ namespace Exercicio03
         public DateTime DataReserva { get; set; }
         public Cliente Cliente { get; set; }
         public IList<Carro> Carros { get; set; }
+
+        public Reserva(DateTime dataReserva, Cliente cliente, IList<Carro> carros)
+        {
+            DataReserva = dataReserva;
+            Cliente = cliente;
+            Carros = carros;
+        }
     }
 }

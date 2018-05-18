@@ -16,5 +16,17 @@ namespace Exercicio03
         public IList<Acessorios> Acessorios { get; set; }
         public IList<Aluguel> Alugueis { get; set; }
         public Filial Filial { get; set; }
+
+        public Carro(string placa, string nome, string cor, string tipo, IList<Reserva> reservas, IList<Acessorios> acessorios, IList<Aluguel> alugueis, Filial filial)
+        {
+            Placa = placa;
+            Nome = nome;
+            Cor = cor;
+            Tipo = tipo;
+            Reservas = reservas;
+            Acessorios = acessorios;
+            Alugueis = alugueis;
+            Filial = filial;
+        }
     }
 }

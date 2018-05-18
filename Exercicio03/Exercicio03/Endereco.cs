@@ -15,5 +15,16 @@ namespace Exercicio03
         public int Numero { get; set; }
         public string Complemento { get; set; }
         public Filial Filial { get; set; }
+
+        public Endereco(string rua, string cidade, string estado, string cep, int numero, string complemento, Filial filial)
+        {
+            Rua = rua;
+            Cidade = cidade;
+            Estado = estado;
+            Cep = cep;
+            Numero = numero;
+            Complemento = complemento;
+            Filial = filial;
+        }
     }
 }
