@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercicio03
 {
-    class Prova
+    class Acessorios
     {
+        public string Codigo { get; set; }
+        public string Nome { get; set; }
+        public Carro Carro { get; set; }
     }
 }

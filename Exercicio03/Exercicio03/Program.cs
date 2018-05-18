@@ -11,6 +11,8 @@ namespace Exercicio03
         static void Main(string[] args)
         {
             Console.WriteLine("Teste2");
+            Endereco end = new Endereco("ruaend","cidadeend")
+
             Console.ReadKey();
         }
     }

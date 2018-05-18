@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercicio03
 {
-    class Sala
+    class Pagamento
     {
+        public double Valor { get; set; }
+        public string Tipo { get; set; }
+        public IList<Aluguel> Alugueis { get; set; }
     }
 }
